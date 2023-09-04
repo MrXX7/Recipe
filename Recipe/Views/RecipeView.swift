@@ -12,7 +12,7 @@ struct RecipeView: View {
     var body: some View {
         NavigationView {
             List(recipeManager.recipes) { recipe in
-                Text(recipe.title)
+                RecipeCard(recipe: recipe)
             }
         }
     }
