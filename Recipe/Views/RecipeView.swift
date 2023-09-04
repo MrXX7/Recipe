@@ -9,6 +9,7 @@ import SwiftUI
 
 struct RecipeView: View {
     @ObservedObject var recipeManager: RecipeManager
+    @State var selectedRecipe: Recipe? = nil
     var body: some View {
         NavigationView {
             ScrollView {
@@ -17,11 +18,17 @@ struct RecipeView: View {
                 VStack {
                     ForEach(recipeManager.recipes) { recipe in
                         RecipeCard(recipe: recipe)
+                            .onTapGesture {
+                                selectedRecipe = recipe
+                            }
                     }
                     .padding(.horizontal)
                 }
                 .padding(.vertical)
                 .background(.ultraThinMaterial)
+                .fullScreenCover(item: $selectedRecipe, content: { recipe in
+                    RecipeDetailView(recipe: recipe)
+                })
             }
             .background(.ultraThinMaterial)
             .navigationTitle("Recipes")
