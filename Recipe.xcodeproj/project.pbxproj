@@ -14,6 +14,7 @@
 		AD6C22B32AA6923F00A9CAFB /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22B22AA6923F00A9CAFB /* RecipeClass.swift */; };
 		AD6C22B52AA693A200A9CAFB /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22B42AA693A200A9CAFB /* RecipeView.swift */; };
 		AD6C22B72AA694B100A9CAFB /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22B62AA694B100A9CAFB /* RecipeCard.swift */; };
+		AD6C22B92AA69AD100A9CAFB /* HorizontalScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22B82AA69AD100A9CAFB /* HorizontalScrolling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		AD6C22B22AA6923F00A9CAFB /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
 		AD6C22B42AA693A200A9CAFB /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		AD6C22B62AA694B100A9CAFB /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
+		AD6C22B82AA69AD100A9CAFB /* HorizontalScrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalScrolling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				AD6C22B62AA694B100A9CAFB /* RecipeCard.swift */,
+				AD6C22B82AA69AD100A9CAFB /* HorizontalScrolling.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD6C22A42AA691A500A9CAFB /* ContentView.swift in Sources */,
+				AD6C22B92AA69AD100A9CAFB /* HorizontalScrolling.swift in Sources */,
 				AD6C22B72AA694B100A9CAFB /* RecipeCard.swift in Sources */,
 				AD6C22A22AA691A500A9CAFB /* RecipeApp.swift in Sources */,
 				AD6C22B52AA693A200A9CAFB /* RecipeView.swift in Sources */,

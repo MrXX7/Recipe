@@ -11,9 +11,20 @@ struct RecipeView: View {
     @ObservedObject var recipeManager: RecipeManager
     var body: some View {
         NavigationView {
-            List(recipeManager.recipes) { recipe in
-                RecipeCard(recipe: recipe)
+            ScrollView {
+                HorizontalScrolling(recipeManager: recipeManager)
+                    .padding(.vertical)
+                VStack {
+                    ForEach(recipeManager.recipes) { recipe in
+                        RecipeCard(recipe: recipe)
+                    }
+                    .padding(.horizontal)
+                }
+                .padding(.vertical)
+                .background(.ultraThinMaterial)
             }
+            .background(.ultraThinMaterial)
+            .navigationTitle("Recipes")
         }
     }
 }
