@@ -11,6 +11,7 @@
 		AD6C22A42AA691A500A9CAFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22A32AA691A500A9CAFB /* ContentView.swift */; };
 		AD6C22A62AA691A600A9CAFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6C22A52AA691A600A9CAFB /* Assets.xcassets */; };
 		AD6C22A92AA691A600A9CAFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD6C22A82AA691A600A9CAFB /* Preview Assets.xcassets */; };
+		AD6C22B32AA6923F00A9CAFB /* RecipeClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C22B22AA6923F00A9CAFB /* RecipeClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AD6C22A32AA691A500A9CAFB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD6C22A52AA691A600A9CAFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD6C22A82AA691A600A9CAFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD6C22B22AA6923F00A9CAFB /* RecipeClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,9 @@
 		AD6C22A02AA691A500A9CAFB /* Recipe */ = {
 			isa = PBXGroup;
 			children = (
+				AD6C22B12AA6921B00A9CAFB /* ViewModel */,
+				AD6C22B02AA6921400A9CAFB /* Components */,
+				AD6C22AF2AA6920400A9CAFB /* Views */,
 				AD6C22A12AA691A500A9CAFB /* RecipeApp.swift */,
 				AD6C22A32AA691A500A9CAFB /* ContentView.swift */,
 				AD6C22A52AA691A600A9CAFB /* Assets.xcassets */,
@@ -65,6 +70,28 @@
 				AD6C22A82AA691A600A9CAFB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD6C22AF2AA6920400A9CAFB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD6C22B02AA6921400A9CAFB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD6C22B12AA6921B00A9CAFB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AD6C22B22AA6923F00A9CAFB /* RecipeClass.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				AD6C22A42AA691A500A9CAFB /* ContentView.swift in Sources */,
 				AD6C22A22AA691A500A9CAFB /* RecipeApp.swift in Sources */,
+				AD6C22B32AA6923F00A9CAFB /* RecipeClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
